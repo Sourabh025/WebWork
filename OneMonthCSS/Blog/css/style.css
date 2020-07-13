@@ -1,0 +1,96 @@
+
+
+/*BoxModel Hack*/
+/*using box model hack we can make boxes math easier ie. we dont need to add new padding and margin stuf 
+into the container width eg.  container width:1000px and main width:500px and sidebar width:500px
+and padding to main, sidebar is 50px each that makes padding 100+100=200.But if we add BoxModel hack
+we dont need to care about these extra spaces.
+*/
+/*BOXMODEL HACK*/
+
+*{
+	-moz-box-sizing:border-box;		/* for Firefox */
+	-webkit-box-sizing:border-box;	/* for Safari/chrome/ios/android */	
+	box-sizing:border-box;	/* for IE */
+
+}
+
+
+
+
+.clearaftersidebar{
+clear:both;
+
+}
+
+#container{
+
+width: 1000px;
+/*wi*/
+margin: 0 auto 0 auto;
+/*margin :  top left bottom right */
+}
+
+/*padding just work on the text/content inside a a div box*/
+
+#header{
+
+background: black;
+padding: 50px;
+color:white	;
+
+}
+
+/*
+h1{
+	font-size: 40px;
+	display:inline-block;
+	padding: 0 20px 0 0;
+	/*inline -> elements in a single line */
+	/*block -> elements in blocks, new line
+}*/
+
+#main{
+
+background:#e6e61f;
+width: 600px; 
+/* if i want to add padding to content than width become 500px + (padding 20+20px=40px) */
+padding:20px;
+float:left;
+text-align: justify;
+
+}
+
+
+.alignright{
+/*when ever we want to allign things to right and left we use float*/
+float:right;
+padding:0 0 0 20px;
+/*padding is done as : top left bottom right; (clockwise)*/
+/*margin: 0 0 0 20px;*/
+/*inplace of padding we can also use margin*/
+
+}
+
+#sidebar{
+background: silver;
+width:320px;
+padding:20px;
+float:left;
+height: 100px;
+color:#ffffff;
+}
+
+
+/*float left in both ids to allign in a column*/
+
+#footer{
+
+/*to add space in top,left,bottom,right use margin*/
+/*note: padding is just for increase div space or color space/boundaries */
+
+background:#000000;
+padding:50px;
+color:#ffffff;
+/*padding gives the pad to the text inside a div*/
+}
