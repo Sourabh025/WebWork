@@ -1,0 +1,119 @@
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+
+.clear {
+	clear: both;
+}
+
+
+/*we always use body to give simillar format to the page eg.-> adding image in background*/
+
+
+body{
+
+	/*Note - body never have a width */
+	/* always use container to give width to the screen*/
+	background-image: url("../images/notebook.png"); 
+	font-family: 'lato';
+	font-size:100%;
+
+}
+
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+.container{
+
+	width: 1000px;
+	/*here we dont know the actual px of user's screen hence we defined 960px of x px*/
+	margin: 0 auto ;
+	clear: both;
+
+}
+
+.main{
+	width: 600px;
+	background-color: white;
+	padding: 20px 10px 20px 30px ;
+	margin: 0px 20px 20px 0px;
+	float: left;
+}
+
+.borderandsign{
+
+	color: silver;
+	border: 2px;
+	width:550px;
+	border-style: solid;
+
+}
+
+.sign{
+
+color:silver;
+
+
+}
+
+.heading{
+
+font-size: 20px;
+
+
+}
+
+
+ 
+
+.sidebar{
+
+float:left;
+width:250px;
+background: #FFF;
+padding: 0 10px 0 10px;
+border-left: 3px solid #BBB;
+border-bottom: 3px solid #BBB;
+
+}
+
+
+.img{
+
+padding:10px 10px 10px 10px ;
+
+
+}
+
+a{
+
+color: red;
+
+}
+
+
+.quote{
+
+padding: 0 10px 0 10px;
+border-left: 3px solid #BBB;
+}
+
+.tagline{
+
+	margin-top:-30px;
+	font-size:25px;
+
+
+}
