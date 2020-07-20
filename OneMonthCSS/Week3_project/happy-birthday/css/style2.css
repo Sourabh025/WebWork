@@ -1,0 +1,44 @@
+.container {
+
+  width:100%;
+  margin: 0;
+  background: #FFF;
+  padding: 0;	
+  text-align: justify;
+
+
+ }
+
+.img1 img{
+
+border-radius: 0;
+
+
+}
+
+.img2{
+
+	text-align: center;
+	float: inherit;
+	float: none;
+	/*to make image to the center we uses tex-align*/
+}
+
+.img3{
+
+	text-align: center;
+	float:none;
+
+}
+
+/*
+.intro{
+
+padding: 10px 10px 10px 10px;
+
+}*/
+
+.contact{
+
+	background-color: #DDD;
+}

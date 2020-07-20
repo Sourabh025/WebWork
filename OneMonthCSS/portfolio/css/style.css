@@ -1,0 +1,52 @@
+
+
+body {
+
+	background: url("../images/cookie-monster.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+	/*background-attachment is going to make background image fixed and not move with scrolling*/
+	
+
+}
+
+
+h1{
+
+font-size: 80px;
+
+
+}
+
+h2{
+
+	background-color: #33cc33;
+	padding-left: 20px; 
+	border-radius: 	15px 50px;
+
+
+}
+
+p{
+
+font-family: 'Yellowtail', cursive;
+
+}
+
+#container{
+padding-top: 8px;
+color: white;
+background-color: black;
+width: 400px;
+
+padding-left: 20px;
+padding-right: 20px;
+text-decoration: none;
+}
+
+.social{
+
+margin-left:30px;
+
+}

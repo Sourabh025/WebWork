@@ -1,0 +1,129 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: #DDD;
+  font-family: 'Open Sans', arial, sans-serif;
+  background: url("../images/space-background.png");
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+
+  width:600px;
+  margin: 100px auto 0 auto;
+  text-align: justify;
+
+  /*line-height: 0;*/
+  /* to make the container completly responsive we uses % insted of px;*/
+  /* but to make our container responsive and in center like width:600px then we need to 
+     use Media-queries */
+
+  /* to make two different visions for a website and mobile we need to use two different stylesheets*/
+  /* :One for mobile and another for the webiste */
+
+}
+
+.img1 img{
+/* to make image responsive we uses % insted of %*/
+
+  width:100%;
+  border-radius: 20px 20px 0 0;
+  line-height:0;
+
+}
+
+.img2{
+
+  float:right;
+
+
+}
+
+.img3{
+
+  float:left;
+
+}
+
+.intro{
+
+  padding: 20px 10px 20px 10px;
+  background-color: white;
+  margin: 0 0 10px 0;
+
+}
+
+.contact{
+
+  margin: 0 0 0 0;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  background-color: #DDD;
+}
+
+.strong{
+
+  font-weight: bold;
+  padding-bottom: 5px;
+
+}
+
+
+.contact, .intro{
+
+  padding:30px;
+
+}
